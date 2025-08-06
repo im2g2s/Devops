@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace with your GitHub repo URL
-                git url: 'https://github.com/im2g2s/Devops.git', branch: 'Testing'
+                git url: 'https://github.com/im2g2s/Devops.git', branch: 'Dev'
             }
         }
 
